@@ -1,0 +1,23 @@
+.footer__checkbox-text {
+  @include button-text-md;
+  font-weight: $fw-primary;
+  color: $color-white;
+  text-transform: none;
+  padding-left: 8px;
+  max-width: 95.429%;
+  letter-spacing: 0.1px;
+}
+
+@media screen and (max-width:1328px) {
+  .footer__checkbox-text{
+    @include button-text-sm;
+    max-width: 93.417%;
+  }
+}
+
+@media screen and (max-width:450px) {
+  .footer__checkbox-text{
+    @include button-text-sm;
+    max-width: 248px;
+  }
+}

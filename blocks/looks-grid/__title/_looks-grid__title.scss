@@ -1,0 +1,17 @@
+.looks-grid__title {
+  @include headline-text-lg;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 1039px) {
+  .looks-grid__title {
+    @include headline-text-md;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .looks-grid__title {
+    @include headline-text-sm;
+    padding-bottom: 20px;
+  }
+}

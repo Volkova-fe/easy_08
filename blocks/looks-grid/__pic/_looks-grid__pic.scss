@@ -1,0 +1,15 @@
+.looks-grid__pic {
+  max-width: 350px;
+}
+
+@media screen and (max-width: 1039px) {
+  .looks-grid__pic {
+    max-width: 243px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .looks-grid__pic {
+    max-width: 140px;
+  }
+}

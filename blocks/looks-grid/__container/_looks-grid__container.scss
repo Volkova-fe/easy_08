@@ -1,0 +1,19 @@
+.looks-grid__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-rows: 1fr 1fr;
+}
+
+@media screen and (max-width: 1039px) {
+  .looks-grid__container {
+    grid-template-columns: repeat(3, minmax(243px, 1fr));
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .looks-grid__container {
+    grid-template-columns: repeat(2, minmax(140px, 1fr));
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+}

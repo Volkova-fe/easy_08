@@ -1,0 +1,19 @@
+.footer__text {
+  @include text-md;
+  text-align: center;
+  color: $color-white;
+  max-width: 700px;
+}
+
+@media screen and (max-width: 1039px) {
+  .footer__text {
+    max-width: 486px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer__text {
+    @include text-sm;
+    max-width: 280px;
+  }
+}

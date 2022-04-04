@@ -1,0 +1,20 @@
+.about__text-lead {
+  @include lead-text-md;
+  padding-top: 20px;
+}
+
+.about__text-lead:first-child {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 1039px) {
+  .about__text-lead {
+    padding-top: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .about__text-lead {
+    @include lead-text-sm;
+  }
+}

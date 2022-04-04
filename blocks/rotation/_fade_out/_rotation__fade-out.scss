@@ -1,0 +1,11 @@
+//анимация справа
+.rotation__fade-out {
+  transform: translateX(50%);
+  transition: opacity 150ms ease-in, transform 300ms ease-in;
+  opacity: 0;
+}
+
+.rotation__fade-out.appear {
+  transform: translateX(0);
+  opacity: 1;
+}
