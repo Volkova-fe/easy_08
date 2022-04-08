@@ -8,12 +8,19 @@
   width: 100%;
   outline: 0.5px solid $color-hover-menu;
   border-bottom: none;
+  cursor: pointer;
+  transition: opacity 0.5s ease-in;
+}
+
+.footer__input:hover {
+  opacity: 0.6;
 }
 
 .footer__input:focus {
   background-color: $color-hover-menu;
   color: $color-dark;
   outline: $color-dark;
+  opacity: 1;
 }
 
 .footer__input:focus::placeholder {

@@ -1,15 +1,23 @@
 .looks-grid__pic {
-  max-width: 350px;
+  max-width: 100%;
 }
 
-@media screen and (max-width: 1039px) {
-  .looks-grid__pic {
-    max-width: 243px;
+@media screen and (max-width: 1029px) {
+  .looks-grid__pic:first-child {
+    display: none;
+  }
+
+  .looks-grid__pic:last-child {
+    display: none;
   }
 }
 
 @media screen and (max-width: 450px) {
-  .looks-grid__pic {
-    max-width: 140px;
+  .looks-grid__pic:first-child {
+    display: block;
+  }
+
+  .looks-grid__pic:last-child {
+    display: block;
   }
 }

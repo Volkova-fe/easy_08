@@ -6,18 +6,27 @@
   padding-left: 8px;
   max-width: 95.429%;
   letter-spacing: 0.1px;
+  grid-column: 2/4;
+  grid-row: 2/3;
+  transition: opacity 0.5s ease-in;
 }
 
-@media screen and (max-width:1328px) {
-  .footer__checkbox-text{
+.footer__checkbox-text:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1328px) {
+  .footer__checkbox-text {
     @include button-text-sm;
     max-width: 93.417%;
   }
 }
 
-@media screen and (max-width:450px) {
-  .footer__checkbox-text{
+@media screen and (max-width: 650px) {
+  .footer__checkbox-text {
     @include button-text-sm;
     max-width: 248px;
+    grid-column: 2/3;
+    grid-row: 3/4;
   }
 }

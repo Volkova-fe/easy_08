@@ -6,9 +6,8 @@
   margin: 0;
   color: $color-dark;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
-
 
 @mixin headline-text-md {
   font-size: $fs-lg;

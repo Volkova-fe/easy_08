@@ -9,7 +9,7 @@
   background-color: $color-header;
   margin: 0;
   display: grid;
-  grid-template-columns: 20px 48px 46px 606px 1fr 20px;
+  grid-template-columns: 20px 48px 46px 42.083% 1fr 20px;
   grid-template-rows: 20px 48px 242px 30% 318px;
   align-items: center;
   justify-items: start;
@@ -17,16 +17,21 @@
 
 @media screen and (max-width: 1039px) {
   .header {
-    grid-template-columns: 20px 48px 46px 149px 1fr 20px;
+    grid-template-columns: 20px 48px 46px 19.701% 1fr 20px;
     grid-template-rows: 20px 48px 155px 31% 223px;
     background-position: bottom left;
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .header {
     grid-template-columns: 20px 24px 41px 1fr 20px;
     grid-template-rows: 16px 24px 71px 1fr 111px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header {
     background-size: 100% 100%;
   }
 }

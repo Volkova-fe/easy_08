@@ -1,0 +1,9 @@
+.popup-menu__button {
+  @include icon;
+}
+
+@media screen and (max-width: 450px) {
+  .popup-menu__button {
+    @include icon-sm;
+  }
+}

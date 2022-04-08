@@ -1,68 +1,67 @@
-@import '../vendor/_normalize';
-@import '../vendor/_fonts';
+@import "../vendor/_normalize";
+@import "../vendor/_fonts";
 
-@import '../vendor/variables';
+@import "..//blocks/variables/variables";
 
-@import '../mixins/text';
-@import '../mixins/lead-text';
-@import '../mixins/headline-text';
-@import '../mixins/button-text';
-@import '../mixins/reset-button';
+@import "../mixins/text";
+@import "../mixins/lead-text";
+@import "../mixins/headline-text";
+@import "../mixins/button-text";
+@import "../mixins/icon";
 
-@import '../blocks/page/page';
-@import '../blocks/content/content';
+@import "../blocks/page/page";
+@import "../blocks/content/content";
+@import "../blocks/section-title/section-title";
 
-@import '../blocks/icon/icon';
-@import '../blocks/icon/__menu/icon__menu';
-@import '../blocks/icon/__arrow-left/icon__arrow-left';
-@import '../blocks/icon/__arrow-right/icon__arrow-right';
-@import '../blocks/icon/__close/icon__close';
+@import "../blocks/fade-in/_position/fade-in_position_left";
+@import "../blocks/fade-in/_position/fade-in_position_right";
 
-@import '../blocks/button/button';
-@import '../blocks/button/_theme/button_theme_black';
-@import '../blocks/button/_theme/button_theme_white';
+@import "../blocks/header/header";
+@import "../blocks/header/__menu-icon/header__menu-icon";
+@import "../blocks/header/__menu-text/header__menu-text";
+@import "../blocks/header/__content/header__content";
+@import "../blocks/header/__title/header__title";
+@import "../blocks/header/__button/header__button";
 
-@import '../blocks/header/header';
-@import '../blocks/header/__menu/header__menu';
-@import '../blocks/header/__menu-text/header__menu-text';
-@import '../blocks/header/__content/header__content';
-@import '../blocks/header/__title/header__title';
+@import "../blocks/about/about";
+@import "../blocks/about/__pic/about__pic";
+@import "../blocks/about/__item/about__item";
+@import "../blocks/about/__list/about__list";
+@import "../blocks/about/__text/about__text";
+@import "../blocks/about/__title/about__title";
+@import "../blocks/about/__text-lead/about__text-lead";
+@import "../blocks/about/__paragraf/about__paragraf";
+@import "../blocks/about/__head/about__head";
+@import "../blocks/about/__pic/_position/about__pic_position_left";
+@import "../blocks/about/__pic/_position/about__pic_position_right";
+@import "../blocks/about/__text/_position/about__text_position_right";
+@import "../blocks/about/__paragraf/_position/about__paragraf_position_left";
+@import "../blocks/about/__pic/_size/about__pic_size_big";
 
-@import '../blocks/about/about';
-@import '../blocks/about/__pic/about__pic';
-@import '../blocks/about/__item/about__item';
-@import '../blocks/about/__list/about__list';
-@import '../blocks/about/__text/about__text';
-@import '../blocks/about/__title/about__title';
-@import '../blocks/about/__text-lead/about__text-lead';
-@import '../blocks/about/__paragraf/about__paragraf';
-@import '../blocks/about/__head/about__head';
-@import '../blocks/about/__pic/_position/about__pic_position_left';
-@import '../blocks/about/__pic/_position/about__pic_position_right';
-@import '../blocks/about/__text/_position/about__text_position_right';
-@import '../blocks/about/__paragraf/_position/about__paragraf_position_left';
-@import '../blocks/about/__pic/_size/about__pic_size_big';
+@import "../blocks/looks-grid/__container/looks-grid__container";
+@import "../blocks/looks-grid/__pic/looks-grid__pic";
+@import "../blocks/looks-grid/__title/looks-grid__title";
 
-@import '../blocks/looks-grid/looks-grid';
-@import '../blocks/looks-grid/__container/looks-grid__container';
-@import '../blocks/looks-grid/__pic/looks-grid__pic';
-@import '../blocks/looks-grid/__title/looks-grid__title';
+@import "../blocks/footer/footer";
+@import "../blocks/footer/__author/footer__author";
+@import "../blocks/footer/__text/footer__text";
+@import "../blocks/footer/__icon/footer__icon";
+@import "../blocks/footer/__icon/_type/footer__icon_type_active";
+@import "../blocks/footer/__icon/_type/footer__icon_type_noactive";
+@import "../blocks/footer/__checkbox-text/footer__checkbox-text";
+@import "../blocks/footer/__form-container/footer__form-container";
+@import "../blocks/footer/__subscribe/footer__subscribe";
+@import "../blocks/footer/__input/footer__input";
+@import "../blocks/footer/__button/footer__button";
 
-@import '../blocks/footer/footer';
-@import '../blocks/footer/__author/footer__author';
-@import '../blocks/footer/__text/footer__text';
-@import '../blocks/footer/__icon/footer__icon';
-@import '../blocks/footer/__icon/_type/footer__icon_type_active';
-@import '../blocks/footer/__icon/_type/footer__icon_type_noactive';
-@import '../blocks/footer/__checkbox-text/footer__checkbox-text';
-@import '../blocks/footer/__form-container/footer__form-container';
-@import '../blocks/footer/__subscribe/footer__subscribe';
-@import '../blocks/footer/__agree/footer__agree';
-@import '../blocks/footer/__input/footer__input';
+@import "../blocks/hidden/hidden";
+@import "../blocks/visible/visible";
 
-@import '../blocks/rotation/rotation';
-@import '../blocks/rotation/__fade-in/rotation__fade-in';
-@import '../blocks/rotation/_fade_out/rotation__fade-out';
-
-@import '../blocks/hidden/hidden';
-@import '../blocks/visible/visible';
+@import "../blocks/popup-menu/popup-menu";
+@import "../blocks/popup-menu/__button/popup-menu__button";
+@import "../blocks/popup-menu/__button/_type/popup-menu__button_type_close";
+@import "../blocks/popup-menu/__item/popup-menu__item";
+@import "../blocks/popup-menu/__list/popup-menu__list";
+@import "../blocks/popup-menu/__link/popup-menu__link";
+@import "../blocks/popup-menu/__container/popup-menu__container";
+@import "../blocks/popup-menu/_opened/popup-menu_opened";

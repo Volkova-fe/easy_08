@@ -1,10 +1,10 @@
 .about {
-  max-width: 1400px;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .about {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;

@@ -1,5 +1,4 @@
 .visible {
-  display: block;
   opacity: 1;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease-out;
 }

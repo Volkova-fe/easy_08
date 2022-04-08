@@ -6,7 +6,10 @@
   color: $color-dark;
   text-transform: uppercase;
   font-weight: $fw-secondary;
-  letter-spacing: 0.37px;
+  letter-spacing: 0.35px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
 }
 
 @mixin button-text-sm {

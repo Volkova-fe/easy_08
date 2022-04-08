@@ -11,5 +11,5 @@
 @mixin lead-text-sm {
   font-size: $fs-sm;
   line-height: $lh-sm;
+  letter-spacing: 0;
 }
-

@@ -1,17 +1,9 @@
 .about__title {
-  @include headline-text-lg;
   grid-column: 1/2;
 }
 
-@media screen and (max-width: 1039px) {
+@media screen and (max-width: 650px) {
   .about__title {
-    @include headline-text-md;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .about__title {
-    @include headline-text-sm;
     padding-bottom: 20px;
   }
 }

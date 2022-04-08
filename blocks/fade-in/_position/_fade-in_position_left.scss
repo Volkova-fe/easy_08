@@ -1,13 +1,10 @@
-//анимация слева
-.rotation__fade-in {
+.fade-in_position_left {
   transform: translateX(-50%);
   transition: opacity 150ms ease-in, transform 300ms ease-in;
   opacity: 0;
-  transform: scale(1.2);
 }
 
-.rotation__fade-in.appear {
+.fade-in_position_left.appear {
   transform: translateX(0);
   opacity: 1;
 }
-

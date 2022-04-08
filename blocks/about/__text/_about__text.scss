@@ -3,15 +3,10 @@
   grid-column: 2/3;
 }
 
-@media screen and (max-width: 450px) {
-  .about__text {
-    grid-column: 1/2;
-    max-width: 280px;
-  }
-}
-
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .about__text {
     @include text-sm;
+    grid-column: 1/2;
+    max-width: 280px;
   }
 }

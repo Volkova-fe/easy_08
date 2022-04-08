@@ -1,15 +1,9 @@
 .footer__subscribe {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 450px) {
-  .footer__subscribe {
-    flex-direction: column;
-  }
+  grid-column: 1/3;
+  grid-row: 1/2;
 }
 
 .footer__subscribe:focus {
   border: 0.5px solid $color-dark;
 }
+

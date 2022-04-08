@@ -1,20 +1,27 @@
 .footer__form-container {
   border: none;
   margin: 0;
-  padding: 40px 0 0;
+  padding: 40px 0 40px;
   width: 50%;
+  display: grid;
+  grid-template-columns: 24px 81.142% 15.428%;
+  row-gap: 20px;
 }
 
 @media screen and (max-width: 1039px) {
   .footer__form-container {
     width: 66.668%;
+    grid-template-columns: 24px 72.839% 22.222%;
     padding-top: 38px;
   }
 }
 
-@media screen and (max-width:450px) {
+@media screen and (max-width: 650px) {
   .footer__form-container {
     width: 100%;
+    grid-template-columns: 24px 91.428%;
+    grid-template-rows: auto auto auto auto;
     padding-top: 38px;
+    row-gap: 0;
   }
 }

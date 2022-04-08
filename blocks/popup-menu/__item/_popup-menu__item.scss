@@ -1,0 +1,13 @@
+.popup-menu__item {
+  padding-top: 80px;
+}
+
+.popup-menu__item:first-child {
+  padding-top: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .popup-menu__item {
+    padding-top: 40px;
+  }
+}

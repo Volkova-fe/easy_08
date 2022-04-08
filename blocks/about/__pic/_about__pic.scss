@@ -5,8 +5,8 @@
   max-width: 100%;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
   .about__pic {
-object-fit: fill;
+    object-fit: fill;
   }
 }

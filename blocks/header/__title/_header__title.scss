@@ -1,16 +1,3 @@
 .header__title {
-  @include headline-text-lg;
   padding-bottom: 32px;
-}
-
-@media screen and (max-width: 1039px) {
-  .header__title {
-    @include headline-text-md;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .header__title {
-    @include headline-text-sm;
-  }
 }
