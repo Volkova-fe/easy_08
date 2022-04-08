@@ -404,6 +404,31 @@ template {
   grid-area: content;
 }
 
+.section-title {
+  font-size: 48px;
+  line-height: 64px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  color: #0a0a0a;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1039px) {
+  .section-title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
 .fade-in_position_left {
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -566,29 +591,7 @@ template {
 }
 
 .header__title {
-  font-size: 48px;
-  line-height: 64px;
-  font-weight: 500;
-  padding: 0;
-  margin: 0;
-  color: #0a0a0a;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   padding-bottom: 32px;
-}
-
-@media screen and (max-width: 1039px) {
-  .header__title {
-    font-size: 32px;
-    line-height: 40px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .header__title {
-    font-size: 24px;
-    line-height: 32px;
-  }
 }
 
 .header__button {
@@ -748,30 +751,13 @@ template {
 }
 
 .about__title {
-  font-size: 48px;
-  line-height: 64px;
-  font-weight: 500;
-  padding: 0;
-  margin: 0;
-  color: #0a0a0a;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
   grid-column: 1/2;
 }
 
-@media screen and (max-width: 1039px) {
-  .about__title {
-    font-size: 32px;
-    line-height: 40px;
-  }
-}
-
 @media screen and (max-width: 650px) {
   .about__title {
-    font-size: 24px;
-    line-height: 32px;
     padding-bottom: 20px;
   }
 }
@@ -969,7 +955,7 @@ template {
       grid-template-rows: 1fr 1fr;
 }
 
-@media screen and (max-width:1039px) {
+@media screen and (max-width: 1039px) {
   .looks-grid__container {
     -ms-grid-columns: (minmax(25%, 33.334%))[3];
         grid-template-columns: repeat(3, minmax(25%, 33.334%));
@@ -1010,28 +996,11 @@ template {
 }
 
 .looks-grid__title {
-  font-size: 48px;
-  line-height: 64px;
-  font-weight: 500;
-  padding: 0;
-  margin: 0;
-  color: #0a0a0a;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   padding-bottom: 40px;
-}
-
-@media screen and (max-width: 1039px) {
-  .looks-grid__title {
-    font-size: 32px;
-    line-height: 40px;
-  }
 }
 
 @media screen and (max-width: 450px) {
   .looks-grid__title {
-    font-size: 24px;
-    line-height: 32px;
     padding-bottom: 20px;
   }
 }
