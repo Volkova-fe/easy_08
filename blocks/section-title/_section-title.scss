@@ -1,0 +1,15 @@
+.section-title {
+  @include headline-text-lg;
+}
+
+@media screen and (max-width: 1039px) {
+  .section-title {
+    @include headline-text-md;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section-title {
+    @include headline-text-sm;
+  }
+}

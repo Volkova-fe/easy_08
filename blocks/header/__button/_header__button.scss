@@ -1,0 +1,22 @@
+.header__button {
+  @include button-text-md;
+  box-sizing: border-box;
+  background-color: $color-dark;
+  color: $color-white;
+  max-width: 350px;
+  padding: 12px 30px;
+  transition: background-color 0.5s ease;
+}
+
+.header__button:hover {
+  background-color: $color-white;
+  color: $color-dark;
+}
+
+@media screen and (max-width: 450px) {
+  .header__button {
+    @include button-text-sm;
+    padding-right: 13px;
+    padding-left: 13px;
+  }
+}

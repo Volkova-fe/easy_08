@@ -1,0 +1,17 @@
+.button_theme_white {
+  background-color: $color-white;
+  padding: 12px 24px;
+  transition: background-color 0.5s ease;
+}
+
+.button_theme_white:hover{
+  background-color: $color-dark;
+  color: $color-white;
+  outline: 0.5px solid $color-hover-menu;
+}
+
+.button_theme_white:active {
+  background-color: $color-dark;
+  color: $color-white;
+  outline: 0.5px solid $color-hover-menu;
+}

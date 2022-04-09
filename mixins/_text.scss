@@ -1,0 +1,13 @@
+@mixin text-md {
+  font-size: $fs-sm;
+  line-height: $lh-md;
+  padding: 0;
+  margin: 0;
+  font-weight: $fw-primary;
+  color: $color-dark;
+}
+
+@mixin text-sm {
+  font-size: $fs-base;
+  line-height: $lh-base;
+}

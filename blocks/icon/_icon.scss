@@ -1,0 +1,19 @@
+.icon {
+  width: 48px;
+  height: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+}

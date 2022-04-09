@@ -1,0 +1,9 @@
+.about__title {
+  grid-column: 1/2;
+}
+
+@media screen and (max-width: 650px) {
+  .about__title {
+    padding-bottom: 20px;
+  }
+}

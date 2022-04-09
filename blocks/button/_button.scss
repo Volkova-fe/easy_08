@@ -1,0 +1,12 @@
+.button {
+  @include reset-button;
+  @include  button-text-md;
+  max-width: 280px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 450px) {
+  .button {
+    @include button-text-sm;
+  }
+}

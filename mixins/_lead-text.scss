@@ -1,0 +1,15 @@
+@mixin lead-text-md {
+  font-size: $fs-lg;
+  line-height: $lh-xl;
+  padding: 0;
+  margin: 0;
+  font-weight: $fw-secondary;
+  color: $color-dark;
+  letter-spacing: 0.8px;
+}
+
+@mixin lead-text-sm {
+  font-size: $fs-sm;
+  line-height: $lh-sm;
+  letter-spacing: 0;
+}

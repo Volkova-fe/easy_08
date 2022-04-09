@@ -1,0 +1,15 @@
+.header__menu-text {
+  @include text-sm;
+  padding-left: 16px;
+  text-transform: uppercase;
+  margin: 0;
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+@media screen and (max-width: 450px) {
+  .header__menu-text {
+    @include button-text-sm;
+    grid-column: 3/4;
+  }
+}

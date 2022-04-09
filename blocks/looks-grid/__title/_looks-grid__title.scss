@@ -1,0 +1,9 @@
+.looks-grid__title {
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 450px) {
+  .looks-grid__title {
+    padding-bottom: 20px;
+  }
+}

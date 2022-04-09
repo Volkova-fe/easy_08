@@ -1,0 +1,12 @@
+.header__menu-icon {
+  @include icon;
+  background-image: url("../../../images/icon_menu.svg");
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+@media screen and (max-width: 650px) {
+  .header__menu-icon {
+    @include icon-sm;
+  }
+}

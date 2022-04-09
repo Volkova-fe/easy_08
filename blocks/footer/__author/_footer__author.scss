@@ -1,0 +1,11 @@
+.footer__author {
+  @include text-md;
+  color: $color-white;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .footer__author {
+    @include text-sm;
+  }
+}

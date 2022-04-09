@@ -1,0 +1,32 @@
+.footer__button {
+  @include button-text-md;
+  width: 108px;
+  box-sizing: border-box;
+  background-color: $color-white;
+  padding: 12px 24px;
+  transition: background-color 0.5s ease;
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.footer__button:hover {
+  background-color: $color-dark;
+  color: $color-white;
+  outline: 0.5px solid $color-hover-menu;
+}
+
+.footer__button:active {
+  background-color: $color-dark;
+  color: $color-white;
+  outline: 0.5px solid $color-hover-menu;
+}
+
+@media screen and (max-width: 650px) {
+  .footer__button {
+    @include button-text-sm;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
