@@ -56,7 +56,7 @@ fadeInRight.forEach(slider => {
 //-------------------------------------------------------------------------------
 
 const checkboxInputs = document.querySelector('.footer__icon_type_active');
-const agreeSection = document.querySelector('.footer__checkbox-text');
+const agreeSection = document.querySelector('.footer__agree');
 const formSubscribe = document.querySelector('.footer__form-container');
 
 const openMenu = document.querySelector('.header__menu-icon');
