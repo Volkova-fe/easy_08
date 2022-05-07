@@ -1,6 +1,6 @@
 .header__menu-icon {
   @include icon;
-  background-image: url("../../../images/icon_menu.svg");
+  background-image: url("../images/icon_menu.svg");
   grid-column: 2/3;
   grid-row: 2/3;
 }

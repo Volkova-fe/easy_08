@@ -468,7 +468,7 @@ template {
 }
 
 .header {
-  background-image: url(../../images/header_pic.jpg);
+  background-image: url(../images/header_pic.jpg);
   -webkit-background-size: contain;
           background-size: contain;
   background-repeat: no-repeat;
@@ -533,7 +533,7 @@ template {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  background-image: url("../../../images/icon_menu.svg");
+  background-image: url("../images/icon_menu.svg");
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
   grid-column: 2/3;
@@ -1117,11 +1117,11 @@ template {
 }
 
 .footer__icon_type_active {
-  background-image: url("../../../../images/check_filled-white.svg");
+  background-image: url("../images/check_filled-white.svg");
 }
 
 .footer__icon_type_noactive {
-  background-image: url(../../../../images/check_empty_white.svg);
+  background-image: url("../images/check_empty_white.svg");
 }
 
 .footer__checkbox-text {
@@ -1411,7 +1411,7 @@ template {
 
 .popup-menu__button_type_close {
   position: absolute;
-  background-image: url(../../../images/close.svg);
+  background-image: url(../../../../images/close.svg);
   top: 20px;
   left: 20px;
   -webkit-transition: opacity 0.5s ease-in;
