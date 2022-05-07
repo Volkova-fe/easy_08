@@ -58,11 +58,14 @@ fadeInRight.forEach(slider => {
 const checkboxInputs = document.querySelector('.footer__icon_type_active');
 const agreeSection = document.querySelector('.footer__agree');
 const formSubscribe = document.querySelector('.footer__form-container');
+const buttonSubscribe = document.querySelector('#btnSubscribe');
+
 
 const openMenu = document.querySelector('.header__menu-icon');
 const menuPopup = document.querySelector('.popup-menu');
-const menuClose = document.querySelector('#close_popup')
-
+const menuClose = document.querySelector('#close_popup');
+const popupItem = document.querySelectorAll('.popup-menu__item');
+console.log(popupItem)
 const imgArrayChange = [
   './images/looks_photo-dayly-look-beigrbg.jpg',
   './images/looks_photo-dayly-look-bluebg.jpg',
@@ -93,10 +96,14 @@ agreeSection.addEventListener('click', function () {
   if (checkboxInputs.classList.contains('footer__icon_type_active')) {
     checkboxInputs.classList.remove('footer__icon_type_active');
     checkboxInputs.classList.add('footer__icon_type_noactive');
+    buttonSubscribe.disabled = 'true';
+    buttonSubscribe.classList.add('footer__button_state_disabled')
   }
   else {
     checkboxInputs.classList.remove('footer__icon_type_noactive');
     checkboxInputs.classList.add('footer__icon_type_active');
+    buttonSubscribe.disabled = 'false';
+    buttonSubscribe.classList.remove('footer__button_state_disabled')
   }
 })
 
@@ -140,6 +147,12 @@ function closePopup(popup) {
 
 openMenu.addEventListener('click', () => {
   openPopup(menuPopup);
+});
+
+popupItem.forEach((item) => {
+  item.addEventListener('click', () => {
+    closePopup(menuPopup);
+  });
 });
 
 menuClose.addEventListener('click', () => closePopup(menuPopup));

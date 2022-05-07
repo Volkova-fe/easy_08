@@ -379,7 +379,7 @@ template {
   -ms-grid-columns: 20px minmax(min-content, 100%) 20px;
       grid-template-columns: 20px minmax(-webkit-min-content, 100%) 20px;
       grid-template-columns: 20px minmax(min-content, 100%) 20px;
-      grid-template-areas: "header header header" ". content ." "footer footer footer";
+      grid-template-areas: "header header header" ". content ." "footer footer footer";
   row-gap: 80px;
 }
 
@@ -1148,13 +1148,6 @@ template {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
-  -webkit-transition: opacity 0.5s ease-in;
-  -o-transition: opacity 0.5s ease-in;
-  transition: opacity 0.5s ease-in;
-}
-
-.footer__checkbox-text:hover {
-  opacity: 0.6;
 }
 
 @media screen and (max-width: 1328px) {
@@ -1271,7 +1264,7 @@ template {
 }
 
 .footer__input:invalid {
-  background-image: url(../images/red_cross.svg);
+  background-image: url(../../../images/red_cross.svg);
   background-repeat: no-repeat;
   background-position: 98% center;
 }
@@ -1336,6 +1329,18 @@ template {
     margin-bottom: 20px;
     width: 100%;
   }
+}
+
+.footer__button_state_disabled {
+  opacity: 0.8;
+  color: #000;
+  background-color: #fff;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 100%;
 }
 
 .hidden {

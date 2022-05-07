@@ -8,11 +8,6 @@
   letter-spacing: 0.1px;
   grid-column: 2/4;
   grid-row: 2/3;
-  transition: opacity 0.5s ease-in;
-}
-
-.footer__checkbox-text:hover {
-  opacity: 0.6;
 }
 
 @media screen and (max-width: 1328px) {
