@@ -1271,7 +1271,7 @@ template {
 }
 
 .footer__input:invalid {
-  background-image: url(../../../images/red_cross.svg);
+  background-image: url(../images/red_cross.svg);
   background-repeat: no-repeat;
   background-position: 98% center;
 }
@@ -1411,7 +1411,7 @@ template {
 
 .popup-menu__button_type_close {
   position: absolute;
-  background-image: url(../../../../images/close.svg);
+  background-image: url(../images/close.svg);
   top: 20px;
   left: 20px;
   -webkit-transition: opacity 0.5s ease-in;
