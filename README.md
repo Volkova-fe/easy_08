@@ -16,5 +16,6 @@ ___
 * Бургерное меню плавно появляется
 ___
 ## Макет
-* https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=6%3A1780
+* [Ссылка на макет](https://www.figma.com/file/G3UWFlQmNtNs67751YiDH2/Month-of-Landings_external-link?node-id=6%3A1780)
+* [Демо версия страницы](https://volkova-fe.github.io/easy_08/)
 
